@@ -1,0 +1,100 @@
+{
+  "datasets": {
+    "FRA_ContenderDraft_Top": {
+      "filename": "FRA_ContenderDraft_Top_Data.json.gz",
+      "hash": "8f21b3a5ddfb3385d2fec8b5a9d9d901595175885a55ee8670617a53e07329bf",
+      "size_kb": 96,
+      "start_date": "2026-09-29",
+      "end_date": "2026-10-17"
+    },
+    "FRA_PickTwoDraft_All": {
+      "filename": "FRA_PickTwoDraft_All_Data.json.gz",
+      "hash": "8864cf29faa47ddb5012c355ffdf454a8f5b97a0a5c6d16b25045e13185e6110",
+      "size_kb": 180,
+      "start_date": "2026-09-29",
+      "end_date": "2026-10-17"
+    },
+    "FRA_PickTwoDraft_Top": {
+      "filename": "FRA_PickTwoDraft_Top_Data.json.gz",
+      "hash": "df9c7e4a5dc66bb82d3d497b5ca3c4b6530d0bfe7d592cbd4870499529e6e8c6",
+      "size_kb": 104,
+      "start_date": "2026-09-29",
+      "end_date": "2026-10-17"
+    },
+    "FRA_PremierDraft_All": {
+      "filename": "FRA_PremierDraft_All_Data.json.gz",
+      "hash": "1062b8b095e3810aa664f8eb14a3e36958b1111d1fe05cd4182022665747f342",
+      "size_kb": 232,
+      "start_date": "2026-09-29",
+      "end_date": "2026-10-17"
+    },
+    "FRA_PremierDraft_Top": {
+      "filename": "FRA_PremierDraft_Top_Data.json.gz",
+      "hash": "d5200fac91153b2248379a705bb0301283e11bef6b9b235d15e0949865263bef",
+      "size_kb": 112,
+      "start_date": "2026-09-29",
+      "end_date": "2026-10-17"
+    },
+    "FRA_QuickDraft_All": {
+      "filename": "FRA_QuickDraft_All_Data.json.gz",
+      "hash": "5158acb142b0ee005ff703cbf52681c01244eb84cc4c6eb57cfbe0ff32397eb9",
+      "size_kb": 172,
+      "start_date": "2026-09-29",
+      "end_date": "2026-10-17"
+    },
+    "FRA_QuickDraft_Top": {
+      "filename": "FRA_QuickDraft_Top_Data.json.gz",
+      "hash": "e2613a8c0420ec6f1b537838897b95b528f0fa951bedcd6e66c9de322e66c57e",
+      "size_kb": 96,
+      "start_date": "2026-09-29",
+      "end_date": "2026-10-17"
+    },
+    "FRA_Sealed_All": {
+      "filename": "FRA_Sealed_All_Data.json.gz",
+      "hash": "23c65d5c8832b349085e94381875467b3fa5092643c52782d2860dcc391ee154",
+      "size_kb": 162,
+      "start_date": "2026-09-29",
+      "end_date": "2026-10-17"
+    },
+    "FRA_TradDraft_All": {
+      "filename": "FRA_TradDraft_All_Data.json.gz",
+      "hash": "5495d5be3aaf50861816577487e1e6c8bd2a787d2b6fa63d4766f2a8c032faae",
+      "size_kb": 166,
+      "start_date": "2026-09-29",
+      "end_date": "2026-10-17"
+    },
+    "FRA_TradDraft_Top": {
+      "filename": "FRA_TradDraft_Top_Data.json.gz",
+      "hash": "a0c3a0f64ae6a9e257ff33e326ba978dce7ee998a8ce473f171a2c1b732979ee",
+      "size_kb": 103,
+      "start_date": "2026-09-29",
+      "end_date": "2026-10-17"
+    },
+    "Y26FRA_PremierDraft_All": {
+      "filename": "Y26FRA_PremierDraft_All_Data.json.gz",
+      "hash": "c8a0e2ae3d5eaf27d7056e0b4b7361a75ca0ceb234f485bd44a06eb77ecc5a29",
+      "size_kb": 151,
+      "start_date": "2026-10-13",
+      "end_date": "2026-10-17"
+    },
+    "Y26FRA_PremierDraft_Top": {
+      "filename": "Y26FRA_PremierDraft_Top_Data.json.gz",
+      "hash": "aa0c35548870a858ebaa45b15fceb7ef053d32ca800929f30ac5df0acd51fffd",
+      "size_kb": 115,
+      "start_date": "2026-10-13",
+      "end_date": "2026-10-17"
+    },
+    "FRA_ContenderDraft_All": {
+      "filename": "FRA_ContenderDraft_All_Data.json.gz",
+      "hash": "c73faa0afe2ee69c72644c45e23243897d82ca9ce0add3a231550911b27bd863",
+      "size_kb": 132,
+      "start_date": "2026-09-29",
+      "end_date": "2026-10-17"
+    }
+  },
+  "updated_at": "2026-10-17T13:29:28.124365+00:00",
+  "active_sets": [
+    "FRA",
+    "Y26FRA"
+  ]
+}
