@@ -1,0 +1,719 @@
+{
+  "pipeline_run": {
+    "started_at": "2026-10-22T14:54:30.453878+00:00",
+    "completed_at": "2026-10-22T15:33:59.309847+00:00",
+    "duration_sec": 2368.9,
+    "status": "PARTIAL_SUCCESS"
+  },
+  "api_stats": {
+    "total_requests": 419,
+    "failed_requests": 0,
+    "cached_requests": 118
+  },
+  "intent": {
+    "scheduled_events": {
+      "FRA": {
+        "formats": [
+          "ContenderDraft",
+          "PickTwoDraft",
+          "PremierDraft",
+          "Sealed",
+          "TradDraft"
+        ],
+        "start_date": "2026-09-29"
+      },
+      "Y26FRA": {
+        "formats": [
+          "PremierDraft"
+        ],
+        "start_date": "2026-10-13"
+      },
+      "DFT": {
+        "formats": [
+          "QuickDraft"
+        ],
+        "start_date": "2026-10-19"
+      },
+      "Cube - Powered": {
+        "formats": [
+          "PremierDraft",
+          "TradDraft"
+        ],
+        "start_date": "2026-10-20"
+      },
+      "VOW": {
+        "formats": [
+          "PremierDraft"
+        ],
+        "start_date": "2026-10-20"
+      }
+    },
+    "archetypes_targeted": [
+      "All Decks",
+      "W",
+      "U",
+      "B",
+      "R",
+      "G",
+      "WU",
+      "UB",
+      "BR",
+      "RG",
+      "WG",
+      "WB",
+      "UR",
+      "BG",
+      "WR",
+      "UG",
+      "WUB",
+      "UBR",
+      "BRG",
+      "WRG",
+      "WUG",
+      "WBR",
+      "URG",
+      "WBG",
+      "WUR",
+      "UBG",
+      "WUBR",
+      "UBRG",
+      "WBRG",
+      "WURG",
+      "WUBG",
+      "WUBRG"
+    ],
+    "user_types_targeted": [
+      "All",
+      "Top"
+    ]
+  },
+  "execution_summary": {
+    "formats_updated": 19,
+    "formats_skipped": 1,
+    "total_output_kb": 2900,
+    "total_cards_rated": 26275,
+    "total_errors": 1,
+    "total_warnings": 58
+  },
+  "warehouse_state": {
+    "total_available_datasets": 21,
+    "available_keys": [
+      "FRA_ContenderDraft_Top",
+      "FRA_PickTwoDraft_All",
+      "FRA_PickTwoDraft_Top",
+      "FRA_PremierDraft_All",
+      "FRA_PremierDraft_Top",
+      "FRA_QuickDraft_All",
+      "FRA_QuickDraft_Top",
+      "FRA_Sealed_All",
+      "FRA_TradDraft_All",
+      "FRA_TradDraft_Top",
+      "Y26FRA_PremierDraft_All",
+      "Y26FRA_PremierDraft_Top",
+      "FRA_ContenderDraft_All",
+      "DFT_QuickDraft_All",
+      "DFT_QuickDraft_Top",
+      "Cube - Powered_PremierDraft_All",
+      "Cube - Powered_PremierDraft_Top",
+      "Cube - Powered_TradDraft_All",
+      "Cube - Powered_TradDraft_Top",
+      "VOW_PremierDraft_All",
+      "VOW_PremierDraft_Top"
+    ]
+  },
+  "datasets_updated": [
+    {
+      "set": "FRA",
+      "format": "ContenderDraft",
+      "user_group": "All",
+      "filename": "FRA_ContenderDraft_All_Data.json.gz",
+      "size_kb": 149,
+      "card_count": 1266,
+      "start_date": "2026-09-29",
+      "end_date": "2026-10-22",
+      "game_count": 27886,
+      "status": "success"
+    },
+    {
+      "set": "FRA",
+      "format": "ContenderDraft",
+      "user_group": "Top",
+      "filename": "FRA_ContenderDraft_Top_Data.json.gz",
+      "size_kb": 96,
+      "card_count": 1266,
+      "start_date": "2026-09-29",
+      "end_date": "2026-10-22",
+      "game_count": 0,
+      "status": "success"
+    },
+    {
+      "set": "FRA",
+      "format": "PickTwoDraft",
+      "user_group": "All",
+      "filename": "FRA_PickTwoDraft_All_Data.json.gz",
+      "size_kb": 186,
+      "card_count": 1266,
+      "start_date": "2026-09-29",
+      "end_date": "2026-10-22",
+      "game_count": 109346,
+      "status": "success"
+    },
+    {
+      "set": "FRA",
+      "format": "PickTwoDraft",
+      "user_group": "Top",
+      "filename": "FRA_PickTwoDraft_Top_Data.json.gz",
+      "size_kb": 105,
+      "card_count": 1266,
+      "start_date": "2026-09-29",
+      "end_date": "2026-10-22",
+      "game_count": 7125,
+      "status": "success"
+    },
+    {
+      "set": "FRA",
+      "format": "PremierDraft",
+      "user_group": "All",
+      "filename": "FRA_PremierDraft_All_Data.json.gz",
+      "size_kb": 241,
+      "card_count": 1266,
+      "start_date": "2026-09-29",
+      "end_date": "2026-10-22",
+      "game_count": 655806,
+      "status": "success"
+    },
+    {
+      "set": "FRA",
+      "format": "PremierDraft",
+      "user_group": "Top",
+      "filename": "FRA_PremierDraft_Top_Data.json.gz",
+      "size_kb": 112,
+      "card_count": 1266,
+      "start_date": "2026-09-29",
+      "end_date": "2026-10-22",
+      "game_count": 63983,
+      "status": "success"
+    },
+    {
+      "set": "FRA",
+      "format": "Sealed",
+      "user_group": "All",
+      "filename": "FRA_Sealed_All_Data.json.gz",
+      "size_kb": 164,
+      "card_count": 1266,
+      "start_date": "2026-09-29",
+      "end_date": "2026-10-22",
+      "game_count": 68579,
+      "status": "success"
+    },
+    {
+      "set": "FRA",
+      "format": "TradDraft",
+      "user_group": "All",
+      "filename": "FRA_TradDraft_All_Data.json.gz",
+      "size_kb": 171,
+      "card_count": 1266,
+      "start_date": "2026-09-29",
+      "end_date": "2026-10-22",
+      "game_count": 73037,
+      "status": "success"
+    },
+    {
+      "set": "FRA",
+      "format": "TradDraft",
+      "user_group": "Top",
+      "filename": "FRA_TradDraft_Top_Data.json.gz",
+      "size_kb": 104,
+      "card_count": 1266,
+      "start_date": "2026-09-29",
+      "end_date": "2026-10-22",
+      "game_count": 5548,
+      "status": "success"
+    },
+    {
+      "set": "Y26FRA",
+      "format": "PremierDraft",
+      "user_group": "All",
+      "filename": "Y26FRA_PremierDraft_All_Data.json.gz",
+      "size_kb": 168,
+      "card_count": 1383,
+      "start_date": "2026-10-13",
+      "end_date": "2026-10-22",
+      "game_count": 22948,
+      "status": "success"
+    },
+    {
+      "set": "Y26FRA",
+      "format": "PremierDraft",
+      "user_group": "Top",
+      "filename": "Y26FRA_PremierDraft_Top_Data.json.gz",
+      "size_kb": 115,
+      "card_count": 1383,
+      "start_date": "2026-10-13",
+      "end_date": "2026-10-22",
+      "game_count": 0,
+      "status": "success"
+    },
+    {
+      "set": "DFT",
+      "format": "QuickDraft",
+      "user_group": "All",
+      "filename": "DFT_QuickDraft_All_Data.json.gz",
+      "size_kb": 186,
+      "card_count": 1256,
+      "start_date": "2025-02-11",
+      "end_date": "2026-10-22",
+      "game_count": 261640,
+      "status": "success"
+    },
+    {
+      "set": "DFT",
+      "format": "QuickDraft",
+      "user_group": "Top",
+      "filename": "DFT_QuickDraft_Top_Data.json.gz",
+      "size_kb": 91,
+      "card_count": 1256,
+      "start_date": "2025-02-11",
+      "end_date": "2026-10-22",
+      "game_count": 0,
+      "status": "success"
+    },
+    {
+      "set": "Cube - Powered",
+      "format": "PremierDraft",
+      "user_group": "All",
+      "filename": "Cube - Powered_PremierDraft_All_Data.json.gz",
+      "size_kb": 227,
+      "card_count": 1748,
+      "start_date": "2026-10-20",
+      "end_date": "2026-10-22",
+      "game_count": 14883,
+      "status": "success"
+    },
+    {
+      "set": "Cube - Powered",
+      "format": "PremierDraft",
+      "user_group": "Top",
+      "filename": "Cube - Powered_PremierDraft_Top_Data.json.gz",
+      "size_kb": 164,
+      "card_count": 1748,
+      "start_date": "2026-10-20",
+      "end_date": "2026-10-22",
+      "game_count": 1561,
+      "status": "success"
+    },
+    {
+      "set": "Cube - Powered",
+      "format": "TradDraft",
+      "user_group": "All",
+      "filename": "Cube - Powered_TradDraft_All_Data.json.gz",
+      "size_kb": 164,
+      "card_count": 1748,
+      "start_date": "2026-10-20",
+      "end_date": "2026-10-22",
+      "game_count": 1667,
+      "status": "success"
+    },
+    {
+      "set": "Cube - Powered",
+      "format": "TradDraft",
+      "user_group": "Top",
+      "filename": "Cube - Powered_TradDraft_Top_Data.json.gz",
+      "size_kb": 161,
+      "card_count": 1747,
+      "start_date": "2026-10-20",
+      "end_date": "2026-10-22",
+      "game_count": 150,
+      "status": "success"
+    },
+    {
+      "set": "VOW",
+      "format": "PremierDraft",
+      "user_group": "All",
+      "filename": "VOW_PremierDraft_All_Data.json.gz",
+      "size_kb": 202,
+      "card_count": 1306,
+      "start_date": "2021-11-11",
+      "end_date": "2026-10-22",
+      "game_count": 860645,
+      "status": "success"
+    },
+    {
+      "set": "VOW",
+      "format": "PremierDraft",
+      "user_group": "Top",
+      "filename": "VOW_PremierDraft_Top_Data.json.gz",
+      "size_kb": 94,
+      "card_count": 1306,
+      "start_date": "2021-11-11",
+      "end_date": "2026-10-22",
+      "game_count": 0,
+      "status": "success"
+    }
+  ],
+  "datasets_skipped": [
+    {
+      "set": "FRA",
+      "format": "Sealed",
+      "reason": "Failed validation, kept prior data: Every sampled card has a 0% 'All Decks' win rate despite non-zero samples -- win-rate fields were not populated."
+    }
+  ],
+  "errors": [
+    {
+      "time": "2026-10-22T15:12:08.210159+00:00",
+      "level": "ERROR",
+      "logger": "__main__",
+      "message": "   [Validation] FRA Sealed (Top): Every sampled card has a 0% 'All Decks' win rate despite non-zero samples -- win-rate fields were not populated."
+    }
+  ],
+  "warnings": [
+    {
+      "time": "2026-10-22T14:54:31.171834+00:00",
+      "level": "WARNING",
+      "logger": "server.events",
+      "message": "Skipping unsupported MTGpile event: Midweek Magic (On the Edge)"
+    },
+    {
+      "time": "2026-10-22T14:54:31.172073+00:00",
+      "level": "WARNING",
+      "logger": "server.events",
+      "message": "Skipping MTGpile event with unresolved set: Artifacts Remix (Flashback Premier Draft)"
+    },
+    {
+      "time": "2026-10-22T14:54:31.172143+00:00",
+      "level": "WARNING",
+      "logger": "server.events",
+      "message": "Skipping unsupported MTGpile event: Arena Championship Qualifier Weekend (Sealed)"
+    },
+    {
+      "time": "2026-10-22T14:54:31.172219+00:00",
+      "level": "WARNING",
+      "logger": "server.events",
+      "message": "Skipping unsupported MTGpile event: Midweek Magic (TMNT Bot Draft)"
+    },
+    {
+      "time": "2026-10-22T14:54:31.172281+00:00",
+      "level": "WARNING",
+      "logger": "server.events",
+      "message": "Skipping unsupported MTGpile event: Midweek Magic (Momir)"
+    },
+    {
+      "time": "2026-10-22T14:54:31.172328+00:00",
+      "level": "WARNING",
+      "logger": "server.events",
+      "message": "Skipping unsupported MTGpile event: Midweek Magic (Jump In!)"
+    },
+    {
+      "time": "2026-10-22T14:54:31.172394+00:00",
+      "level": "WARNING",
+      "logger": "server.events",
+      "message": "Skipping unsupported MTGpile event: Traditional Sealed (Factionalized)"
+    },
+    {
+      "time": "2026-10-22T14:54:31.172443+00:00",
+      "level": "WARNING",
+      "logger": "server.events",
+      "message": "Skipping unsupported MTGpile event: Midweek Magic (On the Edge)"
+    },
+    {
+      "time": "2026-10-22T14:54:31.172499+00:00",
+      "level": "WARNING",
+      "logger": "server.events",
+      "message": "Skipping unsupported MTGpile event: Arena Championship Qualifier Weekend (Sealed)"
+    },
+    {
+      "time": "2026-10-22T14:54:31.172535+00:00",
+      "level": "WARNING",
+      "logger": "server.events",
+      "message": "Skipping unsupported MTGpile event: Midweek Magic (Into the Future)"
+    },
+    {
+      "time": "2026-10-22T14:54:31.172586+00:00",
+      "level": "WARNING",
+      "logger": "server.events",
+      "message": "Skipping unsupported MTGpile event: Alchemy Draft"
+    },
+    {
+      "time": "2026-10-22T14:54:31.172642+00:00",
+      "level": "WARNING",
+      "logger": "server.events",
+      "message": "Skipping unsupported MTGpile event: Arena Limited Championship Qualifiers"
+    },
+    {
+      "time": "2026-10-22T14:54:31.172694+00:00",
+      "level": "WARNING",
+      "logger": "server.events",
+      "message": "Skipping unsupported MTGpile event: Midweek Magic (Cascade Draft)"
+    },
+    {
+      "time": "2026-10-22T14:54:31.172735+00:00",
+      "level": "WARNING",
+      "logger": "server.events",
+      "message": "Skipping unsupported MTGpile event: No-Entry-Fee Phantom Draft"
+    },
+    {
+      "time": "2026-10-22T14:54:31.172779+00:00",
+      "level": "WARNING",
+      "logger": "server.events",
+      "message": "Skipping unsupported MTGpile event: Midweek Magic (Phantom Sealed)"
+    },
+    {
+      "time": "2026-10-22T14:54:31.172825+00:00",
+      "level": "WARNING",
+      "logger": "server.events",
+      "message": "Skipping unsupported MTGpile event: Jump In!"
+    },
+    {
+      "time": "2026-10-22T14:54:31.172898+00:00",
+      "level": "WARNING",
+      "logger": "server.events",
+      "message": "Skipping unsupported MTGpile event: Midweek Magic (Foundations + Marvel)"
+    },
+    {
+      "time": "2026-10-22T14:54:31.172944+00:00",
+      "level": "WARNING",
+      "logger": "server.events",
+      "message": "Skipping unsupported MTGpile event: Arena Championship Qualifier Weekend (Sealed)"
+    },
+    {
+      "time": "2026-10-22T14:54:31.173001+00:00",
+      "level": "WARNING",
+      "logger": "server.events",
+      "message": "Skipping unsupported MTGpile event: Midweek Magic (Momir)"
+    },
+    {
+      "time": "2026-10-22T14:54:31.173111+00:00",
+      "level": "WARNING",
+      "logger": "server.events",
+      "message": "Skipping unsupported MTGpile event: Midweek Magic (Marvel Bot Draft)"
+    },
+    {
+      "time": "2026-10-22T14:54:31.173215+00:00",
+      "level": "WARNING",
+      "logger": "server.events",
+      "message": "Skipping MTGpile event with unresolved set: The Hobbit + Tales of Middle-earth (Sealed Best-of-One)"
+    },
+    {
+      "time": "2026-10-22T14:54:31.173263+00:00",
+      "level": "WARNING",
+      "logger": "server.events",
+      "message": "Skipping unsupported MTGpile event: Midweek Magic (Foundations + Middle-earth)"
+    },
+    {
+      "time": "2026-10-22T14:54:31.173307+00:00",
+      "level": "WARNING",
+      "logger": "server.events",
+      "message": "Skipping unsupported MTGpile event: Mixed-Up Premier Draft"
+    },
+    {
+      "time": "2026-10-22T14:54:31.173353+00:00",
+      "level": "WARNING",
+      "logger": "server.events",
+      "message": "Skipping unsupported MTGpile event: Limited Open"
+    },
+    {
+      "time": "2026-10-22T14:54:31.173402+00:00",
+      "level": "WARNING",
+      "logger": "server.events",
+      "message": "Skipping unsupported MTGpile event: Arena Championship Qualifier Weekend (Sealed)"
+    },
+    {
+      "time": "2026-10-22T14:54:31.173489+00:00",
+      "level": "WARNING",
+      "logger": "server.events",
+      "message": "Skipping unsupported MTGpile event: Arena Limited Championship Qualifiers"
+    },
+    {
+      "time": "2026-10-22T14:54:31.173536+00:00",
+      "level": "WARNING",
+      "logger": "server.events",
+      "message": "Skipping unsupported MTGpile event: Alchemy Bot Draft"
+    },
+    {
+      "time": "2026-10-22T14:54:31.173611+00:00",
+      "level": "WARNING",
+      "logger": "server.events",
+      "message": "Skipping unsupported MTGpile event: Reality Fracture Omniscience Draft"
+    },
+    {
+      "time": "2026-10-22T14:54:31.173665+00:00",
+      "level": "WARNING",
+      "logger": "server.events",
+      "message": "Skipping unsupported MTGpile event: Midweek Magic (Reality Fracture Bot Draft)"
+    },
+    {
+      "time": "2026-10-22T14:54:31.173717+00:00",
+      "level": "WARNING",
+      "logger": "server.events",
+      "message": "Skipping MTGpile event with unresolved set: Star Trek (Contender Draft)"
+    },
+    {
+      "time": "2026-10-22T14:54:31.173763+00:00",
+      "level": "WARNING",
+      "logger": "server.events",
+      "message": "Skipping MTGpile event with unresolved set: Star Trek (Pick-Two Draft)"
+    },
+    {
+      "time": "2026-10-22T14:54:31.173811+00:00",
+      "level": "WARNING",
+      "logger": "server.events",
+      "message": "Skipping MTGpile event with unresolved set: Star Trek (Premier Draft)"
+    },
+    {
+      "time": "2026-10-22T14:54:31.173858+00:00",
+      "level": "WARNING",
+      "logger": "server.events",
+      "message": "Skipping MTGpile event with unresolved set: Star Trek (Sealed)"
+    },
+    {
+      "time": "2026-10-22T14:54:31.173908+00:00",
+      "level": "WARNING",
+      "logger": "server.events",
+      "message": "Skipping MTGpile event with unresolved set: Star Trek (Traditional Draft)"
+    },
+    {
+      "time": "2026-10-22T14:54:31.173944+00:00",
+      "level": "WARNING",
+      "logger": "server.events",
+      "message": "Skipping MTGpile event with unresolved set: Star Trek (Traditional Sealed)"
+    },
+    {
+      "time": "2026-10-22T14:54:31.173986+00:00",
+      "level": "WARNING",
+      "logger": "server.events",
+      "message": "Skipping MTGpile event with unresolved set: Star Trek (Arena Direct)"
+    },
+    {
+      "time": "2026-10-22T14:54:31.174063+00:00",
+      "level": "WARNING",
+      "logger": "server.events",
+      "message": "Skipping MTGpile event with unresolved set: Star Trek (Arena Championship Qualifier Play-In (Sealed BO1))"
+    },
+    {
+      "time": "2026-10-22T14:54:31.174105+00:00",
+      "level": "WARNING",
+      "logger": "server.events",
+      "message": "Skipping unsupported MTGpile event: Midweek Magic (On the Edge)"
+    },
+    {
+      "time": "2026-10-22T14:54:31.174158+00:00",
+      "level": "WARNING",
+      "logger": "server.events",
+      "message": "Skipping MTGpile event with unresolved set: Star Trek (Quick Draft)"
+    },
+    {
+      "time": "2026-10-22T14:54:31.174200+00:00",
+      "level": "WARNING",
+      "logger": "server.events",
+      "message": "Skipping MTGpile event with unresolved set: Star Trek (Arena Championship Qualifier Play-In (Sealed BO3))"
+    },
+    {
+      "time": "2026-10-22T14:54:31.174240+00:00",
+      "level": "WARNING",
+      "logger": "server.events",
+      "message": "Skipping unsupported MTGpile event: Arena Championship Qualifier Weekend (Sealed)"
+    },
+    {
+      "time": "2026-10-22T14:54:31.174278+00:00",
+      "level": "WARNING",
+      "logger": "server.events",
+      "message": "Skipping MTGpile event with unresolved set: Star Trek (Contender Draft)"
+    },
+    {
+      "time": "2026-10-22T14:54:31.174324+00:00",
+      "level": "WARNING",
+      "logger": "server.events",
+      "message": "Skipping unsupported MTGpile event: Flashback Premier Draft (Abominable All-Stars)"
+    },
+    {
+      "time": "2026-10-22T14:54:31.174367+00:00",
+      "level": "WARNING",
+      "logger": "server.events",
+      "message": "Skipping unsupported MTGpile event: Arena Limited Championship Qualifiers"
+    },
+    {
+      "time": "2026-10-22T14:54:31.174427+00:00",
+      "level": "WARNING",
+      "logger": "server.events",
+      "message": "Skipping MTGpile event with unresolved set: Star Trek (Arena Direct)"
+    },
+    {
+      "time": "2026-10-22T14:54:31.174481+00:00",
+      "level": "WARNING",
+      "logger": "server.events",
+      "message": "Skipping MTGpile event with unresolved set: Star Trek (Quick Draft)"
+    },
+    {
+      "time": "2026-10-22T14:54:31.174514+00:00",
+      "level": "WARNING",
+      "logger": "server.events",
+      "message": "Skipping unsupported MTGpile event: Star Trek Omniscience Draft"
+    },
+    {
+      "time": "2026-10-22T14:54:31.174567+00:00",
+      "level": "WARNING",
+      "logger": "server.events",
+      "message": "Skipping unsupported MTGpile event: Midweek Magic (Momir)"
+    },
+    {
+      "time": "2026-10-22T14:54:31.174622+00:00",
+      "level": "WARNING",
+      "logger": "server.events",
+      "message": "Skipping MTGpile event with unresolved set: Arena Powered Cube (Arena Direct)"
+    },
+    {
+      "time": "2026-10-22T14:54:31.174665+00:00",
+      "level": "WARNING",
+      "logger": "server.events",
+      "message": "Skipping unsupported MTGpile event: Pick-Two Arena Powered Cube"
+    },
+    {
+      "time": "2026-10-22T14:54:31.174734+00:00",
+      "level": "WARNING",
+      "logger": "server.events",
+      "message": "Skipping unsupported MTGpile event: Midweek Magic (Star Trek Bot Draft)"
+    },
+    {
+      "time": "2026-10-22T14:54:31.174781+00:00",
+      "level": "WARNING",
+      "logger": "server.events",
+      "message": "Skipping unsupported MTGpile event: Mixed-Up Premier Draft"
+    },
+    {
+      "time": "2026-10-22T14:54:31.174815+00:00",
+      "level": "WARNING",
+      "logger": "server.events",
+      "message": "Skipping unsupported MTGpile event: Arena Limited Championship"
+    },
+    {
+      "time": "2026-10-22T14:54:31.174857+00:00",
+      "level": "WARNING",
+      "logger": "server.events",
+      "message": "Skipping unsupported MTGpile event: Arena Championship Qualifier Play-In (Sealed BO1, bonus)"
+    },
+    {
+      "time": "2026-10-22T14:54:31.174921+00:00",
+      "level": "WARNING",
+      "logger": "server.events",
+      "message": "Skipping unsupported MTGpile event: Midweek Magic (Golden Pack Sealed)"
+    },
+    {
+      "time": "2026-10-22T15:27:34.850243+00:00",
+      "level": "WARNING",
+      "logger": "__main__",
+      "message": "   [Validation] Cube - Powered PremierDraft (Top): Every sampled card has a 0% 'All Decks' win rate despite non-zero samples -- win-rate fields were not populated. (< 3d of data; publishing anyway)"
+    },
+    {
+      "time": "2026-10-22T15:27:58.963184+00:00",
+      "level": "WARNING",
+      "logger": "__main__",
+      "message": "   [Validation] Cube - Powered TradDraft (All): Every sampled card has a 0% 'All Decks' win rate despite non-zero samples -- win-rate fields were not populated. (< 3d of data; publishing anyway)"
+    },
+    {
+      "time": "2026-10-22T15:29:23.270278+00:00",
+      "level": "WARNING",
+      "logger": "__main__",
+      "message": "   [Validation] Cube - Powered TradDraft (Top): Every sampled card has a 0% 'All Decks' win rate despite non-zero samples -- win-rate fields were not populated. (< 3d of data; publishing anyway)"
+    }
+  ]
+}

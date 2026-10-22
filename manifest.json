@@ -1,0 +1,159 @@
+{
+  "datasets": {
+    "FRA_ContenderDraft_Top": {
+      "filename": "FRA_ContenderDraft_Top_Data.json.gz",
+      "hash": "f158e78842b7d74acc558c8b70f0b242403aba7ef3be109551c6b9725f85e5ca",
+      "size_kb": 96,
+      "start_date": "2026-09-29",
+      "end_date": "2026-10-22"
+    },
+    "FRA_PickTwoDraft_All": {
+      "filename": "FRA_PickTwoDraft_All_Data.json.gz",
+      "hash": "c0617014a688b790b8986144c41c3efd1bd11a1d7c91a7ccca248ff3b05a41ab",
+      "size_kb": 186,
+      "start_date": "2026-09-29",
+      "end_date": "2026-10-22"
+    },
+    "FRA_PickTwoDraft_Top": {
+      "filename": "FRA_PickTwoDraft_Top_Data.json.gz",
+      "hash": "f3161571215f8d3a540020effed97309a00d4b91ec70a8d7165f5e3e71bfbb36",
+      "size_kb": 105,
+      "start_date": "2026-09-29",
+      "end_date": "2026-10-22"
+    },
+    "FRA_PremierDraft_All": {
+      "filename": "FRA_PremierDraft_All_Data.json.gz",
+      "hash": "795eb036dac86044fefe1fca542c4c01d03bb5f07e89d566d9840960e4c52294",
+      "size_kb": 241,
+      "start_date": "2026-09-29",
+      "end_date": "2026-10-22"
+    },
+    "FRA_PremierDraft_Top": {
+      "filename": "FRA_PremierDraft_Top_Data.json.gz",
+      "hash": "7a85d36ceefa8abd0aed2555226bb06f4d7c4d4ccb63d1855829acc4578266ae",
+      "size_kb": 112,
+      "start_date": "2026-09-29",
+      "end_date": "2026-10-22"
+    },
+    "FRA_QuickDraft_All": {
+      "filename": "FRA_QuickDraft_All_Data.json.gz",
+      "hash": "74117f154da78d35281b245ed5e8ff0af9faf85597f771df57f9cb839ebec1b7",
+      "size_kb": 174,
+      "start_date": "2026-09-29",
+      "end_date": "2026-10-18"
+    },
+    "FRA_QuickDraft_Top": {
+      "filename": "FRA_QuickDraft_Top_Data.json.gz",
+      "hash": "f47ac1c561108d5bb569cdc16525bd789d1c5015cafd8e6cd8f32dee48f136ac",
+      "size_kb": 96,
+      "start_date": "2026-09-29",
+      "end_date": "2026-10-18"
+    },
+    "FRA_Sealed_All": {
+      "filename": "FRA_Sealed_All_Data.json.gz",
+      "hash": "337ffbbcf9a797fbe9b93a7e4793b5969fc5cdf8b390c4c525a77264d2b0b6dd",
+      "size_kb": 164,
+      "start_date": "2026-09-29",
+      "end_date": "2026-10-22"
+    },
+    "FRA_TradDraft_All": {
+      "filename": "FRA_TradDraft_All_Data.json.gz",
+      "hash": "ed0687e37e0255221176f9ca180b782b563788dbe7861fac848332568fda9914",
+      "size_kb": 171,
+      "start_date": "2026-09-29",
+      "end_date": "2026-10-22"
+    },
+    "FRA_TradDraft_Top": {
+      "filename": "FRA_TradDraft_Top_Data.json.gz",
+      "hash": "75bfe03f08419610dfcb36e381c07b1ca94416085801a7306f8702d24e763fe1",
+      "size_kb": 104,
+      "start_date": "2026-09-29",
+      "end_date": "2026-10-22"
+    },
+    "Y26FRA_PremierDraft_All": {
+      "filename": "Y26FRA_PremierDraft_All_Data.json.gz",
+      "hash": "4a956141767de52ffa9ee6e135a369fa6beeca6435585cb45072149ee0559f66",
+      "size_kb": 168,
+      "start_date": "2026-10-13",
+      "end_date": "2026-10-22"
+    },
+    "Y26FRA_PremierDraft_Top": {
+      "filename": "Y26FRA_PremierDraft_Top_Data.json.gz",
+      "hash": "3601a2aa433fd5f1308e592bc80932831edbd2269d379c6e71c3b903bf2455df",
+      "size_kb": 115,
+      "start_date": "2026-10-13",
+      "end_date": "2026-10-22"
+    },
+    "FRA_ContenderDraft_All": {
+      "filename": "FRA_ContenderDraft_All_Data.json.gz",
+      "hash": "307394c406b477a0ae5e5a6a71e704e5f318c36b4160eb69ed95bac013bfdb79",
+      "size_kb": 149,
+      "start_date": "2026-09-29",
+      "end_date": "2026-10-22"
+    },
+    "DFT_QuickDraft_All": {
+      "filename": "DFT_QuickDraft_All_Data.json.gz",
+      "hash": "b73b5dfd7c537c058f1ad0093eca8902e171211ab8ff18bd0f8aff225747713f",
+      "size_kb": 186,
+      "start_date": "2025-02-11",
+      "end_date": "2026-10-22"
+    },
+    "DFT_QuickDraft_Top": {
+      "filename": "DFT_QuickDraft_Top_Data.json.gz",
+      "hash": "d9b0960df194dedc40477d78b8065c81993f31a291feabf48a0cebc41bad3347",
+      "size_kb": 91,
+      "start_date": "2025-02-11",
+      "end_date": "2026-10-22"
+    },
+    "Cube - Powered_PremierDraft_All": {
+      "filename": "Cube - Powered_PremierDraft_All_Data.json.gz",
+      "hash": "827c1631e430ae5de9e423fc8a732a1bec2ad4631b4e221529794a673fec2a73",
+      "size_kb": 227,
+      "start_date": "2026-10-20",
+      "end_date": "2026-10-22"
+    },
+    "Cube - Powered_PremierDraft_Top": {
+      "filename": "Cube - Powered_PremierDraft_Top_Data.json.gz",
+      "hash": "2cf279c26907ac73a516a32e3ff25e79f56c780eef6b57b690ba8ef4594823e6",
+      "size_kb": 164,
+      "start_date": "2026-10-20",
+      "end_date": "2026-10-22"
+    },
+    "Cube - Powered_TradDraft_All": {
+      "filename": "Cube - Powered_TradDraft_All_Data.json.gz",
+      "hash": "102e9310785bbb52734595e157b3bf592d07f597d1fa1ce83a5a0bdebfe0c134",
+      "size_kb": 164,
+      "start_date": "2026-10-20",
+      "end_date": "2026-10-22"
+    },
+    "Cube - Powered_TradDraft_Top": {
+      "filename": "Cube - Powered_TradDraft_Top_Data.json.gz",
+      "hash": "ccaae02da956d1e904337d2246eaf0c84bf7d2dc12f8d93c8e89d209c6cc0412",
+      "size_kb": 161,
+      "start_date": "2026-10-20",
+      "end_date": "2026-10-22"
+    },
+    "VOW_PremierDraft_All": {
+      "filename": "VOW_PremierDraft_All_Data.json.gz",
+      "hash": "643f791cab1617dbfe6f6b7cfe3d29c3e0862909e9fb284beaf63d9f4f729b63",
+      "size_kb": 202,
+      "start_date": "2021-11-11",
+      "end_date": "2026-10-22"
+    },
+    "VOW_PremierDraft_Top": {
+      "filename": "VOW_PremierDraft_Top_Data.json.gz",
+      "hash": "f871ce1413259d089f472c898e534027be8c732e415c4979cb9c31598855ec27",
+      "size_kb": 94,
+      "start_date": "2021-11-11",
+      "end_date": "2026-10-22"
+    }
+  },
+  "updated_at": "2026-10-22T14:54:31.177745+00:00",
+  "active_sets": [
+    "FRA",
+    "Y26FRA",
+    "DFT",
+    "Cube - Powered",
+    "VOW"
+  ]
+}
